@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bee Chat</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <div class="chat-container">
+        <div class="header">
+          <div class="header-content">
+            <div class="icon-container">
+              <span>🐝</span>
+            </div>
+            <div>
+              <h1>Bee Chat</h1>
+            </div>
+          </div>
+        </div>
+        <div class="messages-container" id="messagesContainer">
+          <div class="welcome-message" id="welcomeMessage">
+            <div class="welcome-content">
+              <div class="welcome-icon">
+                <span>🐝</span>
+              </div>
+              <h2>Welcome</h2>
+              <p>
+                Upload your journals for a more personalised experience. Feel
+                free to journal in this chat. I’ll remember every detail you
+                share with me.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="input-area">
+          <div class="input-wrapper">
+            <input type="file" id="fileInput" style="display: none" />
+            <button class="file-button" id="fileButton">
+              <span>📎</span>
+            </button>
+
+            <textarea
+              id="messageInput"
+              placeholder="What's on your mind?"
+              rows="1"
+            ></textarea>
+
+            <button class="send-button" id="sendButton">➤</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

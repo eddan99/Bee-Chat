@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+python-multipart
+langchain==0.1.20
+langchain-community==0.0.38
+langchain-openai==0.1.0
+openai
+faiss-cpu
+pymupdf
+pydantic
